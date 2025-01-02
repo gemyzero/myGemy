@@ -8,7 +8,7 @@ import Skills from './components/Skills'
 import Protofolio from './components/Protfolio'
 import Contact from './components/Contact'
 import About from './components/About'
-import Counter from './components/Counter'
+// import Counter from './components/Counter'
 import Loding from './components/Loding'
 import Experience from './components/Experience'
 function App() {
@@ -28,11 +28,10 @@ function App() {
   <About></About>
 
   <Skills></Skills>
-  <Counter></Counter>
+  {/* <Counter></Counter> */}
 
   <Protofolio></Protofolio>
-  <Experience></Experience>
-
+<Experience></Experience>
   <Contact></Contact>
  </div> : <Loding></Loding>
 }
