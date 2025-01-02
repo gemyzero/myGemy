@@ -1,0 +1,82 @@
+
+
+
+.hero{
+        width: 100%;
+        height: 100vh;
+
+
+        background-image:
+        
+         linear-gradient( to right, rgba(31, 29, 29, 0.658) , rgba(0, 0, 0, 0.511)),
+         url(../../public/img/bg.jpg)
+         ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/* start hero */
+.hero h1{
+    color: white;
+    font-weight: 800;
+}
+.chang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    width:100%;
+
+}
+.chang p{
+    border-right: 4px solid white;
+    padding-right:  10px;
+    width: 100%;
+overflow: hidden;
+white-space: nowrap;
+animation: control-width 3s 2s both;
+
+}
+@keyframes control-width{
+    from{
+
+        width: 0px;
+    }
+    to{
+ width: 100%;
+    }
+
+}
+@media (max-width: 780px){
+.chang{
+    font-size: 30px;
+}
+}
+@media (max-width: 700px){
+    .chang{
+        font-size: 20px;
+    }
+    }
+.icon-content ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-content ul li{
+    list-style: none;
+    margin: 20px;
+    font-size: 35px;
+}
+.icon-content ul li a{
+    color: white;
+}
+.icon-content ul li a:hover i {
+    color: gray;   
+}
