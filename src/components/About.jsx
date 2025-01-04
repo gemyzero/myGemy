@@ -17,7 +17,7 @@ export default function About() {
                 <h2>mohamed gmal is A software developer specializing in front-end development  based in egypt.</h2>
                 <p>I am Front-end engineer capable of developing reactive web applications using React.js. I am distinguished by my ability to transform designs into clean and effective code. I bring a passion for innovation in problem solving
                 .</p>
-           <a href='https://docs.google.com/document/d/1D5Q0H_EJSemOWASE_aDD1syUTpUoBJDb/edit?usp=sharing&ouid=114074409082178313136&rtpof=true&sd=true' className='btn btn-dark fw-bold p-2 px-5'>Download cv</a>
+           <a href='https://drive.google.com/file/d/1homPjvU0nX5BhotWjbC-wbAT_45SMWf5/view?usp=sharing' className='btn btn-dark fw-bold p-2 px-5'>Download cv</a>
             </div>
         </div>
       </div>

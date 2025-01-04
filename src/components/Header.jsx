@@ -12,7 +12,7 @@ export default function Header() {
       <br/>
 <div className="chang">
 
-  <p >I Am Mohamed Gmal I a software developer .</p>
+  <p >I'm Mohamed Gamal I'm Software Developer.</p>
 
 </div>
       <div className="icon-content">
